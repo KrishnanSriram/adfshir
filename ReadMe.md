@@ -32,3 +32,7 @@ A SHIR can access resources in both public and private networks. It uses Windows
 - If all goes well, your connection is now setup
 
 ### Challenges creating SHIR
+
+As you can see there are more than 15 steps involved to create ADF and SHIR setup. Connection to VM is one of the most abhored process in enterprise world. This involves manual login to multiple systems with elevated privilges. As you know such operations are undesirable for enterprise security. This is where IAC comes handy.
+
+Code in this repository walks you through the process to establish connection between SHIR instance and VM through IAC. This way DEV teams no longer need to deal with portal logins or elevated privileges
